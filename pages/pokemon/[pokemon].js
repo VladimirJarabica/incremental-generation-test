@@ -32,5 +32,5 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   // Predefined routes
-  return { paths: ["/pokemon/ditto"], fallback: "blocking" };
+  return { paths: [], fallback: "blocking" };
 }
